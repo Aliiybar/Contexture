@@ -1,0 +1,331 @@
+{
+  "version": 2,
+  "domains": [
+    {
+      "id": "03f07a3c-2cbc-460b-a9cd-fd99c3a2795f",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Employee"
+    },
+    {
+      "id": "04aa0e38-d8ed-4ef4-9e3b-d0ea54cb2c90",
+      "parentDomainId": "764ddb59-9082-4df8-8778-29dc550970c5",
+      "name": "VAT "
+    },
+    {
+      "id": "09963b99-ec3a-4f16-b913-744b36770e90",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Logging"
+    },
+    {
+      "id": "0d828573-f9af-4d0c-ba81-1b6b0810637e",
+      "parentDomainId": "e06997f7-250d-476c-aaad-39ccb573da20",
+      "name": "Modules"
+    },
+    {
+      "id": "0dbbcf94-23b8-45f5-b38c-55bcb00a934f",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Bookings"
+    },
+    {
+      "id": "1847dddc-0dda-4a84-8414-6afecd3e96ab",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Prices",
+      "vision": "Modules Prices "
+    },
+    {
+      "id": "1b9e06e3-e922-4244-a41b-9e8bf979a7b4",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Sales"
+    },
+    {
+      "id": "1e8cbcc1-1a24-4242-9014-e12d484f8294",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Statistics"
+    },
+    {
+      "id": "2719eb35-e20b-458b-8151-17610fb063fc",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Payments"
+    },
+    {
+      "id": "2c424efc-3fad-4fe8-82ac-ed4ca32a0820",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Menu"
+    },
+    {
+      "id": "3bbcd2b3-4e61-42d2-97a8-773d95d2f5b9",
+      "parentDomainId": "1b9e06e3-e922-4244-a41b-9e8bf979a7b4",
+      "name": "InHouse"
+    },
+    {
+      "id": "3dc86608-333e-44d5-8afd-876df8f5d2ad",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Payment"
+    },
+    {
+      "id": "474a2456-3da4-4f26-9a36-1afef65a9c4f",
+      "parentDomainId": "03f07a3c-2cbc-460b-a9cd-fd99c3a2795f",
+      "name": "Rota"
+    },
+    {
+      "id": "4b97b8a8-de13-4458-8d1f-aa7676615ec9",
+      "parentDomainId": "56384e6f-6ccf-4648-9263-afa9eead017b",
+      "name": "Period",
+      "vision": "Max restaurant\nFee\nModules\nHardware\nPaid ?"
+    },
+    {
+      "id": "51d12154-1edb-45dd-b6d5-acddf1776f09",
+      "parentDomainId": "747fa7cd-386c-4fa9-879a-ed3a8e77c4aa",
+      "name": "Calendar",
+      "vision": "Special days and Holidays for specific countries. \nThis is important to estimate the human resources needed \nAlso for banners "
+    },
+    {
+      "id": "56384e6f-6ccf-4648-9263-afa9eead017b",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Accounts",
+      "vision": "Accounts holds which users can have how many restaurants and for which period for how much and which modules they can access\n\nDiscounts - until when ?"
+    },
+    {
+      "id": "6fbc8507-9bad-48b5-a041-52f7e8318cca",
+      "parentDomainId": "1b9e06e3-e922-4244-a41b-9e8bf979a7b4",
+      "name": "Web / Takeaway"
+    },
+    {
+      "id": "70841038-b1fe-427e-8bde-ca5d22e7eed7",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Layout"
+    },
+    {
+      "id": "747fa7cd-386c-4fa9-879a-ed3a8e77c4aa",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Localization",
+      "vision": "language, dates, decimals, money signs etc"
+    },
+    {
+      "id": "764ddb59-9082-4df8-8778-29dc550970c5",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Purchase"
+    },
+    {
+      "id": "79dcfb7b-d257-4028-85bd-1b8186c6d41e",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Integrations"
+    },
+    {
+      "id": "7c4918e7-308b-481a-8f82-d3de6bb5f508",
+      "parentDomainId": "03f07a3c-2cbc-460b-a9cd-fd99c3a2795f",
+      "name": "Wages"
+    },
+    {
+      "id": "83f36158-1d1b-4caa-90ba-04a17eaf5b8c",
+      "parentDomainId": "747fa7cd-386c-4fa9-879a-ed3a8e77c4aa",
+      "name": "Exchange Rates",
+      "vision": "Converting totals for multinational companies or  touristic places"
+    },
+    {
+      "id": "8fc8d2d7-01c2-447d-8f2f-ecc5febb81f5",
+      "parentDomainId": "2c424efc-3fad-4fe8-82ac-ed4ca32a0820",
+      "name": "Offer"
+    },
+    {
+      "id": "9fd572cd-08fc-49a6-a358-fd2da06e9398",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Service Tickets",
+      "vision": "Create date - Close date - Request - Messages between requester and admins \nFinalize comments and stars\nWho handles it and who sorts it"
+    },
+    {
+      "id": "b23ec2e4-01a4-4f62-b450-94c6e7f41b18",
+      "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Communication"
+    },
+    {
+      "id": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Administration"
+    },
+    {
+      "id": "b9f697e4-3b54-49f3-b6f2-e5d8bc80369c",
+      "parentDomainId": "9fd572cd-08fc-49a6-a358-fd2da06e9398",
+      "name": "Online Requests"
+    },
+    {
+      "id": "c1b1dc54-1ae7-4a94-bd53-c4cae8e14f06",
+      "parentDomainId": "764ddb59-9082-4df8-8778-29dc550970c5",
+      "name": "Invoices"
+    },
+    {
+      "id": "de950f5c-0974-4810-a15d-05102134f593",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Admins",
+      "vision": "Rights\nDiscount margins\n"
+    },
+    {
+      "id": "e06997f7-250d-476c-aaad-39ccb573da20",
+      "parentDomainId": "b6d0cf19-84f8-4091-a569-894c42eba37c",
+      "name": "Application Sales"
+    },
+    {
+      "id": "ebe431d2-f86d-41b9-a586-fb2f43cbea1e",
+      "parentDomainId": "747fa7cd-386c-4fa9-879a-ed3a8e77c4aa",
+      "name": "Language",
+      "vision": "general or usage specific dictionary. Which can be exported as json to clients. "
+    },
+    {
+      "id": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
+      "name": "Restaurant"
+    },
+    {
+      "id": "f37c2dc6-a3b7-4145-ab69-97565209fee6",
+      "name": "Group"
+    },
+    {
+      "id": "f9d387b1-9cc7-4ef6-8eae-9ce479d686a4",
+      "parentDomainId": "9fd572cd-08fc-49a6-a358-fd2da06e9398",
+      "name": "Automatic requests ",
+      "vision": "Sent by the system"
+    }
+  ],
+  "boundedContexts": [
+    {
+      "id": "00ebe9f1-e48e-4c2b-bacf-16c21e37c0fd",
+      "domainId": "0dbbcf94-23b8-45f5-b38c-55bcb00a934f",
+      "name": "Layout",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "03e1ba60-f8f6-446f-ad03-4f8438474370",
+      "domainId": "764ddb59-9082-4df8-8778-29dc550970c5",
+      "name": "Payments",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "09c63c7f-2605-45ab-9396-046a50c4d7f0",
+      "domainId": "474a2456-3da4-4f26-9a36-1afef65a9c4f",
+      "name": "Bookings",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "2fcc6cd8-7b3e-494c-b432-46c04fdfdb30",
+      "domainId": "1b9e06e3-e922-4244-a41b-9e8bf979a7b4",
+      "name": "Bookings",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "8a5bfa7b-7f80-429a-b91e-9015d37e3e18",
+      "domainId": "79dcfb7b-d257-4028-85bd-1b8186c6d41e",
+      "name": "Sales",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "ae851029-bfbd-4776-9a02-fc4ca48267d0",
+      "domainId": "1b9e06e3-e922-4244-a41b-9e8bf979a7b4",
+      "name": "Menu",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    },
+    {
+      "id": "deda674d-aaa8-4d96-9c91-c7135e591865",
+      "domainId": "f37c2dc6-a3b7-4145-ab69-97565209fee6",
+      "name": "Restaurant",
+      "classification": {
+        "businessModel": []
+      },
+      "businessDecisions": [],
+      "ubiquitousLanguage": {},
+      "messages": {
+        "commandsHandled": [],
+        "commandsSent": [],
+        "eventsHandled": [],
+        "eventsPublished": [],
+        "queriesHandled": [],
+        "queriesInvoked": []
+      },
+      "domainRoles": [],
+      "namespaces": []
+    }
+  ],
+  "collaborations": [],
+  "namespaceTemplates": []
+}
