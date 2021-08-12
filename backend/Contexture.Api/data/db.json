@@ -24,7 +24,8 @@
     {
       "id": "0dbbcf94-23b8-45f5-b38c-55bcb00a934f",
       "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
-      "name": "Bookings"
+      "name": "Bookings",
+      "vision": "Manages bookings and needs to access restaurant, capacity, remaining capacity, booking settings, stop sales data, calendar and communications"
     },
     {
       "id": "1847dddc-0dda-4a84-8414-6afecd3e96ab",
@@ -51,6 +52,11 @@
       "id": "2c424efc-3fad-4fe8-82ac-ed4ca32a0820",
       "parentDomainId": "ebeea11b-6983-4de6-a94f-42166fbf4f30",
       "name": "Menu"
+    },
+    {
+      "id": "3a4d4422-18b9-4ece-803a-563ca5646af4",
+      "name": "Authentication Authorization",
+      "vision": "Admin, Account holder and User based Authentications needed. \nAlso a kind of authentication between modules must be there"
     },
     {
       "id": "3bbcd2b3-4e61-42d2-97a8-773d95d2f5b9",
@@ -195,14 +201,26 @@
       "businessDecisions": [],
       "ubiquitousLanguage": {},
       "messages": {
-        "commandsHandled": [],
+        "commandsHandled": [
+          "TableAdd",
+          "TableConnect",
+          "TableRemove",
+          "TableSplit"
+        ],
         "commandsSent": [],
         "eventsHandled": [],
         "eventsPublished": [],
-        "queriesHandled": [],
+        "queriesHandled": [
+          "GetTotalCapacity"
+        ],
         "queriesInvoked": []
       },
-      "domainRoles": [],
+      "domainRoles": [
+        {
+          "name": "Restaurant Admin",
+          "description": "Only authorized restaurant admins can access "
+        }
+      ],
       "namespaces": []
     },
     {
